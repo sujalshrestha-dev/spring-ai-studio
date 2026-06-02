@@ -1,9 +1,10 @@
-package com.ai.SpringAi;
+package com.ai.SpringAi.service;
 
 
 import org.springframework.ai.chat.model.ChatModel;
-import org.springframework.ai.openai.api.OpenAiApi;
+import org.springframework.stereotype.Service;
 
+@Service
 public class ChatService {
 
     private final ChatModel chatModel;
